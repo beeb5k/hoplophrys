@@ -2,26 +2,20 @@
 name = "hoplophrys"
 version = "0.0.1"
 edition = "2024"
-license = "MIT"
-authors = ["Vivek Tiwari <beeb5k6@gmail.com>"]
 description = """
-hoplophrys is an open-source backend in one file
-like pocketbase but in rust.
+Hoplophrys is an open-source backend in one file
+like pocketbase but in Rust!.
 """
 repository = "https://github.com/beeb5k/hoplophrys"
-
-[[bin]]
-name = "hoplophrys"
-path = "core/main.rs"
+license = "MIT"
 
 [workspace]
 members = []
 
 [workspace.package]
-authors = ["Vivek Tiwari <beeb5k6@gmail.com>"]
 edition = "2024"
-license = "MIT"
 repository = "https://github.com/beeb5k/hoplophrys"
+license = "MIT"
 
 [dependencies]
 axum = "0.8.6"
